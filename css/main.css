@@ -1,3 +1,45 @@
 /*
  * Estilos de tu proyecto
  */
+ body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+ }
+
+ header { /* en esa parte estoy dejand esatico la barra que contiene el menu*/
+   position: fixed;
+   background: transparent;
+   width: 100%;
+   /*border: solid black 1px; este lo ocupe para guiarme y saber que estaba moviendo */
+   top: 0;
+   padding: 10px
+ }
+
+
+
+ #page_1 {
+   background-image: url(../assets/images/hero.gif);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 554px;
+   margin-top: 0px;
+   padding-top: 30px;
+   color: white;
+ }
+
+ .logo {
+   float: left;
+   width: 5%;
+ }
+
+ .menu {
+   padding-top: 20px;
+   /*margin:  25px;*/
+   margin-left: 25%;
+   width: 100px;
+   line-height: 50px;
+   font-weight: lighter;
+   text-align: left;
+   color:white;
+ }
